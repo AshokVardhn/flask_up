@@ -6,7 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
-#IntelliJ build folder
+#Ignoring IntelliJ folder
 .idea
 
 # Distribution / packaging
