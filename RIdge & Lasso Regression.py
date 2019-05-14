@@ -133,7 +133,7 @@ plt.scatter(ridge_xtest, ridge_ypred,color='red')
 
 '''Extended Plotting using subplots'''
 plots = np.logspace(-6,6,4)
-fig,ax = plt.subplots(len(plots),sharex="True")
+fig,ax = plt.subplots(len(plots),sharex=True)
 for index,i in enumerate(plots):
     ridge_x = 10 * rng.rand(100).reshape((-1, 1))
     ridge_y = np.sin(ridge_x) + 0.1 * rng.randn(100).reshape(-1, 1)
